@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BORD	mouse_print.c	7;"	d	file:
+C_HEIGHT	mouse_print.c	5;"	d	file:
+C_WIDTH	mouse_print.c	4;"	d	file:
+T__	mouse_print.c	6;"	d	file:
+X__	mouse_print.c	8;"	d	file:
+_MAIN_H	main.h	2;"	d
+board	mouse_print.c	/^char board[24*30];$/;"	v
+bpp	main.h	/^    int bpp;$/;"	m	struct:__anon1
+button	main.h	/^    int button;$/;"	m	struct:__anon2
+check_all	mouse_print.c	/^int check_all(void)$/;"	f
+check_five	mouse_print.c	/^int check_five(int x,int y)$/;"	f
+chess_count	mouse_print.c	/^int chess_count(int x, int y)$/;"	f
+create_scr_fb	main.c	/^void create_scr_fb(void)$/;"	f
+create_spot	print_board.c	/^void create_spot(int x1,int y1,u32_t color)  $/;"	f
+cursor_pixel	mouse_print.c	/^static u32_t cursor_pixel[C_WIDTH*C_HEIGHT]=$/;"	v	file:
+draw_cursor	mouse_print.c	/^int draw_cursor(int x,int y)$/;"	f
+dx	main.h	/^    int dx;$/;"	m	struct:__anon2
+dy	main.h	/^    int dy;$/;"	m	struct:__anon2
+dz	main.h	/^    int dz;$/;"	m	struct:__anon2
+fb_circle	basic_shape.c	/^int fb_circle(int x0,int y0,int r,u32_t color)$/;"	f
+fb_line	basic_shape.c	/^int fb_line(int x1,int y1,int x2,int y2,u32_t color)$/;"	f
+fb_mem	main.h	/^    void *fb_mem;$/;"	m	struct:__anon1
+fb_one_pixel	main.c	/^int fb_one_pixel(int x,int y,u32_t color)$/;"	f
+fb_v	main.c	/^v_info_t fb_v;$/;"	v
+get_m_info	mouse_print.c	/^int get_m_info(int fd,m_event *event)$/;"	f
+h	main.h	/^    int h;$/;"	m	struct:__anon1
+m_event	main.h	/^}m_event;$/;"	t	typeref:struct:__anon2
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f
+mouse_doing	mouse_print.c	/^int mouse_doing(void)$/;"	f
+para	makefile	/^para = -Wall$/;"	m
+print_board	print_board.c	/^void print_board(int x1,int y1, u32_t color)$/;"	f
+restore_shape	mouse_print.c	/^int restore_shape(int x,int y)$/;"	f
+save_shape	mouse_print.c	/^int save_shape(int x,int y)$/;"	f
+scr	makefile	/^scr = main.c basic_shape.c print_board.c mouse_print.c $/;"	m
+shape_save	mouse_print.c	/^static u32_t shape_save[C_WIDTH*C_HEIGHT] = {0};\/\/init $/;"	v	file:
+swap	basic_shape.c	/^void swap(int *a,int *b)$/;"	f
+u32_t	main.h	/^typedef unsigned int u32_t;$/;"	t
+u8_t	main.h	/^typedef unsigned char u8_t;$/;"	t
+v_info_t	main.h	/^}v_info_t;$/;"	t	typeref:struct:__anon1
+w	main.h	/^    int w;$/;"	m	struct:__anon1
+who	mouse_print.c	/^char who=1;$/;"	v
